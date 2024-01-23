@@ -50,3 +50,6 @@ p{
     transition: 0.4s;
     transform: scale(1.3);
 }
+head{
+    background-color:#162927
+}
