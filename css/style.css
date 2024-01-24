@@ -28,23 +28,20 @@ p{
     height: 100px;
     background-color: green;
     margin: 10px;
-    float: right, 10px;
-    
+    clear: both;
 }
 #div3{
-    width: 220px;
+    width: 100px;
     height: 100px;
     background-color: blue;
     margin: 10px;
-    float: right, 20px;
-    
+    clear: both;
+}   
 #div4{
-    width: 220px;
+    width: 100px;
     height: 100px;
     background-color: yellow;
     margin: 10px; 
-    float: right, 30px;
-    
 }
 #div1:hover{
     transition: 0.4s;
@@ -61,4 +58,4 @@ p{
 #div4:hover{
     transition: 0.4s;
     transform: scale(1.3);
-}}
+}
