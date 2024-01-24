@@ -16,31 +16,31 @@ p{
     color: black;
 }
 #div1{
-    width: 100px;
-    height: 100px;
+    width: 160px;
+    height: 305px;
     background-color: red;
     margin: 12px;
     float: left;
 
 }
 #div2{
-    width: 100px;
-    height: 100px;
+    width: 160px;
+    height: 305px;
     background-color: green;
     margin: 12px;
     clear: both;
     float: right, 10px;
 }
 #div3{
-    width: 100px;
-    height: 100px;
+    width: 160px;
+    height: 305px;
     background-color: blue;
     margin: 12px;
     clear: both;
 }   
 #div4{
-    width: 100px;
-    height: 100px;
+    width: 160px;
+    height: 305px;
     background-color: yellow;
     margin: 12px; 
 }
