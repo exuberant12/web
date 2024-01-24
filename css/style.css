@@ -29,6 +29,7 @@ p{
     background-color: green;
     margin: 10px;
     clear: both;
+    float: right, 10px;
 }
 #div3{
     width: 100px;
