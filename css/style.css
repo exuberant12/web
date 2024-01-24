@@ -29,18 +29,21 @@ p{
     background-color: green;
     margin: 10px;
     float: right, 10px;
+    
 }
 #div3{
     width: 220px;
     height: 100px;
     background-color: blue;
     margin: 10px;
+    float: right, 20px;
     
 #div4{
     width: 220px;
     height: 100px;
     background-color: yellow;
     margin: 10px; 
+    float: right, 30px;
     
 }
 #div1:hover{
