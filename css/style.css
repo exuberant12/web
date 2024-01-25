@@ -11,7 +11,7 @@ nav{
 #foot{
     background-color: #ff79f4;
     text-align: center;
-    bottom: 0;
+    bottom: 50%;
 }
 p{
     color: black;
