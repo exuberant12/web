@@ -65,4 +65,8 @@ p{
 h2{
     clear: both;
     margin-left: 60px;
+    font-style: oblique;
+}
+#h2tav{
+    margin-left: 50px;
 }
