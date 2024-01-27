@@ -30,15 +30,12 @@ p{
     height: 305px;
     background-color: green;
     margin: 12px;
-    clear: both;
-    float: right, 10px;
 }
 #div3{
     width: 160px;
     height: 305px;
     background-color: blue;
     margin: 12px;
-    clear: both;
 }   
 #div4{
     width: 160px;
