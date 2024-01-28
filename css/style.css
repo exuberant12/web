@@ -21,24 +21,28 @@ p{
     height: 305px;
     margin: 12px;
     float: left;
+    transition: 1s;
 }
 #div2{
     width: 160px;
     height: 305px;
     background-color: green;
     margin: 12px;
+    transition: 1s;
 }
 #div3{
     width: 160px;
     height: 305px;
     background-color: blue;
     margin: 12px;
+    transition: 1s;
 }   
 #div4{
     width: 160px;
     height: 305px;
     background-color: yellow;
-    margin: 12px; 
+    margin: 12px;
+    transition: 1s; 
 }
 #div1:hover{
     transition: 0.5s;
@@ -56,7 +60,6 @@ p{
 #div4:hover{
     transition: 0.5s;
     transform: scale(1.1);
-    transition: ease-in-out;
 }
 #h2tav{
     margin-left: 50px;
