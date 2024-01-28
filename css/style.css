@@ -26,21 +26,18 @@ p{
 #div2{
     width: 160px;
     height: 305px;
-    background-color: green;
     margin: 12px;
     transition: 1.2s;
 }
 #div3{
     width: 160px;
     height: 305px;
-    background-color: blue;
     margin: 12px;
     transition: 1.2s;
 }   
 #div4{
     width: 160px;
     height: 305px;
-    background-color: yellow;
     margin: 12px;
     transition: 1.2s; 
 }
