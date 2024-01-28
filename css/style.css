@@ -21,28 +21,28 @@ p{
     height: 305px;
     margin: 12px;
     float: left;
-    transition: 1s;
+    transition: 1.2s;
 }
 #div2{
     width: 160px;
     height: 305px;
     background-color: green;
     margin: 12px;
-    transition: 1s;
+    transition: 1.2s;
 }
 #div3{
     width: 160px;
     height: 305px;
     background-color: blue;
     margin: 12px;
-    transition: 1s;
+    transition: 1.2s;
 }   
 #div4{
     width: 160px;
     height: 305px;
     background-color: yellow;
     margin: 12px;
-    transition: 1s; 
+    transition: 1.2s; 
 }
 #div1:hover{
     transition: 0.5s;
@@ -55,7 +55,6 @@ p{
 #div3:hover{
     transition: 0.5s;
     transform: scale(1.1);
-    transform-origin: 1.0;
 }
 #div4:hover{
     transition: 0.5s;
