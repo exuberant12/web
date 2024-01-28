@@ -57,11 +57,19 @@ p{
     transition: 0.5s;
     transform: scale(1.1);
 }
-h2{
-    clear: both;
-    margin-left: 60px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
 #h2tav{
     margin-left: 50px;
+    clear: both;
+}
+#h2nya{
+    margin-left: 60px;
+    clear: both;
+}
+#h2osz{
+    margin-left: 60px;
+    clear: both;
+}
+#h2tel{
+    margin-left: 60px;
+    clear: both;
 }
