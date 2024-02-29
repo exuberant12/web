@@ -30,19 +30,34 @@
     <a href="Szamologep.html">Számológép</a>
 </nav>
 
-    <div id="szamolo">
+    <div id="szamolo" onclick="osszead()">
         <h2>Összeadás</h2>
-        <input type="button" name="Összeadás">
     </div>
-        <div id="szamolo">
+        <div id="szamolo" onclick="kivon()">
             <h2>Kivonás</h2>
         </div>
-            <div id="szamolo">
+            <div id="szamolo" onclick="szorzas()">
                 Szorzás
             </div>
-                <div id="szamolo">
+                <div id="szamolo" onclick="oszt()">
                     Osztás
                 </div>
+
+<script>
+    function osszead(){
+        let szam, szam2, eredmeny;
+        szam = Number(prompt("Írd be az első számot!"));
+        while(Number.isNaN(szam)) {
+            szam = Number(prompt("Na ezt mégegyszer..."))
+        }
+        szam2 = Number(prompt("Írd be a második számot"));
+        while(Number.isNaN(szam2)) {
+            sza2 = Number(prompt("Na ezt is mégegyszer..."))
+        }
+        eredmeny = szam + szam2;
+        alert("Eredmény:" + eredmeny)
+    }
+</script>
 
 <footer id="foot">
     <h2>&copy; Takács Kristóf</h2>
