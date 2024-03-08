@@ -31,16 +31,23 @@
         <a href="szinesbg.html">Vált. háttér</a> |
     </nav>
 
-    <input type="color" name="szin" onchange="valt()" id="szin">
+    <p class="input" id="fname">Legcsodálatosabb ember</p>
+
+
+    <input type="color" onchange="bcolor()" id="bcolor">
+    <input type="color" onchange="color()" id="color">
+    <input type="text" onchange="fname()" class="input">
     
     <script>
-
-    <h1>Legcsodálatosabb ember</h1>
-
-    function valt() {
-        document.body.style.color = szin.value
-    }
-
+        function bcolor() {
+        document.body.style.backgroundColor =  bcolor.value
+        }
+        function color() {
+            document.body.style.color = color.value 
+        }
+        function fname() {
+            document.getElementById("fname").innerHTML = name.value
+        }
     </script>
 
     <footer id="foot">
