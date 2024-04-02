@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Csere program</title>
+</head>
+<body>
+    
+    <nav>
+        <a href="index.html">| Főoldal</a> | <style> body{color: whitesmoke;}</style>
+        <a href="keplink.html">Képlink</a> |
+        <a href="lista.html">Listák</a> | 
+        <a href="orarend.html">Órarend</a> |
+        <a href="urlap.html">Űrlap</a> |
+        <a href="4evszak.html">4 évszak</a> |
+        <a href="Szamologep.html">Számológép</a> |
+        <a href="szinesbg.html">Vált. háttér/szöveg</a> |
+        <a href="kepcsere.html">Csere prog./a> |
+    </nav>
+
+    <h1>Csere program/h1>
+
+    <div class="container">
+
+        <img id="cser" src="img/kor.jpg" width="200px" onclick="csere()">
+
+        <div style="margin: auto;">
+
+            <p id="kiir"></p>
+
+        </div>
+
+    </div>
+
+    <script>
+
+        function csere() {
+
+            document.getElementById('kiir').innerText = click;
+
+            if (kep == 1) {
+
+                document.getElementById('cser').src = "img/haromsz.png";
+
+                kep = 2;
+
+            }
+
+            else {
+
+                document.getElementById('cser').src = "img/kor.png";
+
+                kep = 1;
+
+            }
+
+        }
+
+    </script>
+
+<footer id="foot">
+    <h2>&copy; Takács Kristóf</h2>
+    <h3>Készítette: Takács Kristóf</h3>
+</footer>
+
+</body>
+</html>
