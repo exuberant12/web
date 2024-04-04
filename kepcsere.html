@@ -20,7 +20,9 @@
     <meta name="theme-color" content="#ffffff">
 </head>
 <body>
-    
+
+    <h1 style="text-align: center;">Csere program</h1>
+
     <nav>
         <a href="index.html">| Főoldal</a> | <style> body{color: whitesmoke;}</style>
         <a href="keplink.html">Képlink</a> |
@@ -30,39 +32,26 @@
         <a href="4evszak.html">4 évszak</a> |
         <a href="Szamologep.html">Számológép</a> |
         <a href="szinesbg.html">Vált. háttér/szöveg</a> |
-        <a href="kepcsere.html">Csere prog./a> |
+        <a href="kepcsere.html">Csere prog.</a> |
     </nav>
 
-    <h1 style="text-align: center;">Csere program</h1>
+    
 
     <div style="text-align: center;">
-
-        <img id="cser" src="img/kor.jpg" width="200px" onclick="csere()">
-
+        <img id="korr" src="img/kor.jpg" width="220px" onclick="kor()" style="display: block;">
+        <img id="haromsz" src="img/haromsz.jpg" width="220px" onclick="haromszog()" style="display: none;">
     </div>
 
     <script>
 
-        function csere() {
-
-            if (kep == 1) {
-
-                document.getElementById('cser').src = "img/haromsz.jpg";
-
-                kep = 2;
-
-            }
-
-            else {
-
-                document.getElementById('cser').src = "img/kor.jpg";
-
-                kep = 1;
-
-            }
-
+        function kor() {
+            document.getElementById("korr").style.display = "none"
+            document.getElementById("haromszog").style.display = "block"
         }
-
+        function haromszog() {
+            document.getElementById("korr").style.display = "block"
+            document.getElementById("haromsz").style.display = "none"
+        }
     </script>
 
 <footer id="foot">
