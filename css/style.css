@@ -83,13 +83,7 @@ p{
 #foot2{
     
 }
-#kep1{
-    float: left;
-}
-#kep2{
-    float: right;
-}
-#sideba{
+#sidebar{
 
     margin-left: auto;
 }
