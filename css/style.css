@@ -83,3 +83,13 @@ p{
 #foot2{
     
 }
+#heade{
+    float: left;
+}
+#heade2{
+    float: right;
+}
+#sideba{
+    
+    margin-left: auto;
+}
